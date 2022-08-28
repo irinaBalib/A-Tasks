@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Task1.Function": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7083",
+      "launchBrowser": false
+    }
+  }
+}
