@@ -29,7 +29,7 @@ namespace ResponseHandler
             var logMessage = new LogMessage()
             {
                 RowKey = Guid.NewGuid().ToString(),
-                PartitionKey = DateTime.Now.ToString("yy-MM-dd"),
+                PartitionKey = DateTime.Now.ToString("yyyy-MM-dd"),
                 Message = status
             };
             await _tableUploader.Upload(logMessage);
