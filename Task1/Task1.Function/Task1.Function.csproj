@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CallHandler\ResponseHandler.csproj" />
+    <ProjectReference Include="..\ResponseHandler\ResponseHandler.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
